@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/imgBig"
+            android:title="그림확대(2배)" />
+        <item
+            android:id="@+id/imgSmall"
+            android:title="그림기본(1배)" />
+    </group>
+
+    <item android:title="배경색변경>>">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_white"
+                android:title="배경색흰색" />
+            <item
+                android:id="@+id/menu_pink"
+                android:title="배경색분홍" />
+
+            <item
+                android:id="@+id/menu_sky"
+                android:title="배경색하늘" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
